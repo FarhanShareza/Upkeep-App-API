@@ -1,0 +1,58 @@
+const mailOptions = {
+    from: process.env.AUTH_EMAIL,
+    to: process.env.AUTH_EMAIL,
+    subject:"Verifikasi Email",
+    html: ` <body>
+                <div style="background-color: #EFFAFF; padding-top:60px; padding-bottom:30px;">
+                    <div style="border:1px; position:absolute; margin-left:auto; margin-right:auto; left:0; right:0; top:0px; bottom:0; width: 70%; height:70%; background-color: white; border-radius: 15px; border-style: solid;
+                    border-color: lightgrey;">
+                        <table width="100%">
+                            <tbody>
+                            <tr>
+                                <td style=" padding:18px 0px 18px 0px;line-height:22px;text-align:inherit" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family:inherit;text-align:center"><span style="font-family:verdana,geneva,sans-serif;font-size:15px;color:#e4514c"><strong>Konfirmasi email untuk melanjutkan pendaftaran akun.</strong></span></div><div></div></div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table  width="100%" style="table-layout:fixed">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:0px 0px 40px 0px;line-height:22px;text-align:inherit" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family:inherit;text-align:center"><span style="font-size:12px;color:#58595b">Tekan tombol konfirmasi email dibawah untuk melanjutkan pendaftaran.</span></div><div></div></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="table-layout:fixed" width="100%">
+                            <tbody>
+                                <tr>
+                                <td align="center" style="padding:0px 0px 0px 0px">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="m_-5255230795760432230wrapper-mobile" style="text-align:center">
+                                    <tbody>
+                                        <tr>
+                                        <td align="center" bgcolor="#E4514C" style="border-radius:6px;font-size:16px;text-align:center;background-color:inherit">
+                                        <a href="https://www.youtube.com/watch?v=7GhO2lncvBg" style="background-color:#e4514c;border:0px solid #333333;border-color:#333333;border-radius:7px;border-width:0px;color:#ffffff;display:inline-block;font-size:14px;font-weight:normal;letter-spacing:0px;line-height:normal;padding:10px 30px 10px 30px;text-align:center;text-decoration:none;border-style:solid;font-family:verdana,geneva,sans-serif" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://url837.depatu.com/ls/click?upn%3D95r9eWf9eDSCbTyH5ZekZ4hEO-2BHFxz5MJqncHwZPhBYGWbmzlGRmxw61q3mCPeaj3xgTng3tslw6sOEi2ZywUA2SuAGX3zdUSwl30CMpO2VMhaeiVzEwu80OtNFZQyEWiInifehRe9sjpfvdionogA-3D-3D4EuZ_iKvg7XPEczqtdM1Z4KDAzJmFxQtmjv6upGrqHFR0rjoPimh74M7ufd0YwIVmDIasoBxbB4Q8viq7bZNXTlyXlEBohZpLHg-2F75tjZMR43lbRwuiRFc90omPw72eCAwwlWZY3UEGQtH-2FYfc0W7zMCVygpU5svOv7cH30petcDCdCLxQdhhVYI13xy-2F9tFfKQrUDFOBjCWhitbzhOMaQFyPbWy2g7F4A65DhH6Hzpk7dvs5oaTJst-2FKH3VJNZCC5hylQwA1wuMpJ-2BY1DIHeku3PTHpAdx463SOGXBM3dGUcAxAUGEr1lnwKqow6WrVSOBvIQPSjPBBrVHDrI0z6vkSni-2BP-2BL4THvtR3ZXhmr5SSE1M-3D&amp;source=gmail&amp;ust=1631089111388000&amp;usg=AFQjCNG35tqfCvoW-5zXKW_GjmQZFrGjzQ">Konfirmasi Email</a>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <tr>
+                            <td style="padding:0px 0px -10px 0px;line-height:22px;text-align:inherit" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family:inherit;text-align:center"><span style="font-size:10px;color:#58595b">E-mail ini dibuat otomatis, mohon tidak membalas. Jika butuh bantuan, silakan hubungi Upkeep Care.                                        </span></div><div></div></div></td>
+                        </tr>
+                        <hr size="1px"style="width:80%; align:left;">
+                        <table  width="100%" style="table-layout:fixed">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:0px 0px 40px 0px;line-height:22px;text-align:inherit" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family:inherit;text-align:center"><span style="font-size:10px;color:#58595b">Copyright ©2021 Upkeep All Rights Reserved</span></div><div></div></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </body>`,
+}
